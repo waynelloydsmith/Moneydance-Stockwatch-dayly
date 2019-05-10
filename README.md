@@ -2,7 +2,7 @@
 Pulls the end of day Canadian/US stock prices from Stockwatch and updates Moneydance. 
 does canadian mutual fund and exchange rates too. 
 You need to be logged into stockwatch and have an account with them. 
-description of each script.
+# description of each script.
 runScripts-shared.py .. run this script with moneydance->window->"Show MoneyBot Console"
 It runs many scripts via a tree menu system.
 open the "Run Stockwatch Update Scripts" folder
