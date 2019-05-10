@@ -16,8 +16,8 @@ fetchhtmlDaylyStockwatchIndexs.py  --- gets the exchange rates for all the curre
 fetch-Stockwatch-ID.py -- uses python and sqlite to get the stockwatch cookie with ID in it. 
 finish up back in updateDaylyStockWatch.py -- process all the csv files in StockwatchDay and move them to Done.
 directories in use (you need to create these manually)
-/opt/moneydance/scripts/tmp/StockwatchDay
-/opt/moneydance/scripts/tmp/Done
+/opt/moneydance/scripts/tmp/StockwatchDay.
+/opt/moneydance/scripts/tmp/Done.
 files in use 
 /opt/moneydance/scripts/tmp/stockwatchID.txt
 /opt/moneydance/scripts/tmp/StockwatchDay/indexs.csv
