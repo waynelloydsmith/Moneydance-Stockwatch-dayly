@@ -188,6 +188,9 @@ class runScripts:
 #    from javax.swing.plaf.multi import MultiLookAndFeel
 
     execfile("/opt/moneydance/scripts/definitions.py")
+    import os
+    os.chdir('/opt/moneydance/scripts')
+    sys.path.append(r'/opt/moneydance/scripts/')
  
 # the list of Misc Scripts test.py and dev.py are just for playing with dev.py has the testing for the Alphavantage yahoo replacement
     mMiscData = ["StockGlance75.py","jython_info.py" ,"test.py","dev.py"]

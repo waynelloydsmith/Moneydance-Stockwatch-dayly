@@ -3,6 +3,7 @@
 
 import sys
 
+
 # this takes a long time to run because it trys to write every ticker into moneydance ( 2000 of them ) . 
 # I fixed this by filtering the io to moneydance
 # the import data files should be down loaded from www.stockwatch.com and be placed in the directory /opt/moneydance/scripts/tmp/StockwatchDay
@@ -253,6 +254,7 @@ class updateDaylyStockwatch:
     dest = dest.strip()
     lst = dest.split()
     filename = lst[len(lst)-1]
+    import os
 #   print filename
     print definitions.directory+'Done/'+filename
     os.rename(fle, definitions.directory+'Done/'+filename) # opt/moneydance/scripts/tmp/Stockwatch/Stockwatch6.csv
