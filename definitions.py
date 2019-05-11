@@ -116,17 +116,17 @@ class definitions:
 # TML202 is recognized by many web sites but BIF*CDN seems to be only used by stockwatch 
 # used by updateHistoryStockwatch.py and updateDaylyStockwatch.py to look up the fundserv ticker symbol given the name used by www.stockwatch.com
    StockwatchSymbols = { #mutual funds only.. used by updateHistoryStockwatch.py and updateDaylyStockwatch.py
-   'TML202':'BIF*CDN',
-   'MFC738':'CUN*SSC', 
-   'BIP151':'BRN*GLO', # :'MUTF_CA:BIP151', this is how google is handling it https://finance.google.ca/finance?q=MUTF_CA:BIP151
-   'FID281':'FSB*CAA', 
-   'BNS744':'BNA*SAG',
-   'BNS361':'BNS*MOR',
-   'BNS741':'BNA*SIG',
-   'BNS357':'BNS*MMF',
-   'BMO146':'BOM*DIV', 
-   'BMO471':'BME*TFP', 
-   'GOC309':'Canoe Canadian Asset Allocation Class-Z'    # missing from stockwatch looks like stockwatch makes up their own names for Canadian mutual funds
+   'TML202-T':'BIF*CDN',
+   'MFC738-T':'CUN*SSC', 
+   'BIP151-T':'BRN*GLO', # :'MUTF_CA:BIP151', this is how google is handling it https://finance.google.ca/finance?q=MUTF_CA:BIP151
+   'FID281-T':'FSB*CAA', 
+   'BNS744-T':'BNA*SAG',
+   'BNS361-T':'BNS*MOR',
+   'BNS741-T':'BNA*SIG',
+   'BNS357-T':'BNS*MMF',
+   'BMO146-T':'BOM*DIV', 
+   'BMO471-T':'BME*TFP', 
+   'GOC309-T':'Canoe Canadian Asset Allocation Class-Z'    # missing from stockwatch looks like stockwatch makes up their own names for Canadian mutual funds
    }
                        # Currency Exchange Rates to Canadian Dollars
    StockwatchIndexs = { # used for exchange rate update. used by updateDaylyStockwatch.py
