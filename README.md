@@ -16,12 +16,12 @@
  - fetch-Stockwatch-ID.py -- uses python and sqlite to get the stockwatch cookie with ID in it. 
  - finish up back in updateDaylyStockWatch.py -- process all the csv files in StockwatchDay and move them to Done.
 ### Directories in use (you need to create these manually)
--/opt/moneydance/scripts/tmp/StockwatchDay.
--/opt/moneydance/scripts/tmp/Done.
+- /opt/moneydance/scripts/tmp/StockwatchDay.
+- /opt/moneydance/scripts/tmp/Done.
 ### Files in use 
--/opt/moneydance/scripts/tmp/stockwatchID.txt
--/opt/moneydance/scripts/tmp/StockwatchDay/indexs.csv
--/opt/moneydance/scripts/tmp/StockwatchDay/stoclwatch.csv
+- /opt/moneydance/scripts/tmp/stockwatchID.txt
+- /opt/moneydance/scripts/tmp/StockwatchDay/indexs.csv
+- /opt/moneydance/scripts/tmp/StockwatchDay/stoclwatch.csv
 -Progress is reported on the "MoneyBot Conosle"
 -Also check the Message Console for Errors / Crashes.
 -definitions.py is used to filter the large amount of data provided by www.stockwatch.com
