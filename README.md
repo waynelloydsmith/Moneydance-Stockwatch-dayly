@@ -1,7 +1,7 @@
 ## Moneydance-Stockwatch-dayly
--Pulls the end of day Canadian/US stock prices from Stockwatch and updates Moneydance. 
--Does canadian mutual fund and exchange rates too. 
--You need to be logged into stockwatch and have an account with them. 
+- Pulls the end of day Canadian/US stock prices from Stockwatch and updates Moneydance. 
+- Does canadian mutual fund and exchange rates too. 
+- You need to be logged into stockwatch and have an account with them. 
 ### Description of each script.
  - runScripts-shared.py .. run this script with moneydance->window->"Show MoneyBot Console"
  - It runs many scripts via a tree menu system.
@@ -22,12 +22,12 @@
 - /opt/moneydance/scripts/tmp/stockwatchID.txt
 - /opt/moneydance/scripts/tmp/StockwatchDay/indexs.csv
 - /opt/moneydance/scripts/tmp/StockwatchDay/stoclwatch.csv
--Progress is reported on the "MoneyBot Conosle"
--Also check the Message Console for Errors / Crashes.
--definitions.py is used to filter the large amount of data provided by www.stockwatch.com
--so that only securities and exchange rates we are interested in get saved in moneydance.
--you will need to edit this file to reflect the stocks / currencies you are interested in.
--the dictionary to change is StockPriceHistoryStockwatch = { 
--Run this script every day after the markets close (30 minutes later).
--It only takes about 30 seconds to run it.
+- Progress is reported on the "MoneyBot Conosle"
+- Also check the Message Console for Errors / Crashes.
+- definitions.py is used to filter the large amount of data provided by www.stockwatch.com
+- so that only securities and exchange rates we are interested in get saved in moneydance.
+- you will need to edit this file to reflect the stocks / currencies you are interested in.
+- the dictionary to change is StockPriceHistoryStockwatch = { 
+- Run this script every day after the markets close (30 minutes later).
+- It only takes about 30 seconds to run it.
 
